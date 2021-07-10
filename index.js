@@ -10,6 +10,7 @@ hexo.config.covers = Object.assign(
         tagsUrl: 'tag',
         categoriesUrl: 'category',
         compress: true,
+        render_drafts: false,
         source: {
             categories: {
                 data: '_data/categories.yml',

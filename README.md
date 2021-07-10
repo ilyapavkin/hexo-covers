@@ -237,6 +237,7 @@ covers:
     tagsUrl: tag
     categoriesUrl: category
     compress: true
+    render_drafts: false
     source:
         categories:
             data: _data/categories.yml
@@ -289,6 +290,7 @@ covers:
 | `tagsUrl` | `false` | `tag` | The URL where tag covers will be produced. |
 | `categoriesUrl` | `false` | `tag` | The URL where category covers will be produced. |
 | `compress` | `false` | `true` | Determines if output cover images will be compressed. |
+| `render_drafts` | `false` | `false` | Will render covers for drafts if set to true. |
 | `source.categories.data` | `false` | `_data/categories.yml` | Path to yaml file that provides additional data for categories (for more information see above). |
 | `source.categories.images` | `false` | `_covers/categories` | Path to images folder for categories (for more information see above). |
 | `source.tags.data` | `false` | `_data/tags.yml` | Path to yaml file that provides additional data for tags (for more information see above). |
